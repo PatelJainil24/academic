@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="EduMall helps learners build practical skills with expert-led online courses.">
+  <title>EduMall — Learn Without Limits</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" id="top">
+    <div class="topbar">
+      <div class="container topbar-inner">
+        <div class="contact-list">
+          <a href="tel:+8819906886" aria-label="Call EduMall">
+            <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.69 2.8a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.33 1.84.56 2.8.69A2 2 0 0 1 22 16.92z"/></svg>
+            (+88) 1990 6886
+          </a>
+          <span class="contact-divider"></span>
+          <a href="mailto:hello@edumall.com">
+            <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><path d="m22 6-10 7L2 6"/></svg>
+            hello@edumall.com
+          </a>
+        </div>
+        <div class="topbar-actions">
+          <a href="#register">Log in</a>
+          <span class="contact-divider"></span>
+          <a href="#register">Register</a>
+          <div class="socials" aria-label="Social links">
+            <a href="#" aria-label="Twitter">X</a>
+            <a href="#" aria-label="Facebook">f</a>
+            <a href="#" aria-label="Instagram">◎</a>
+            <a href="#" aria-label="LinkedIn">in</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <nav class="navbar" aria-label="Main navigation">
+      <div class="container nav-inner">
+        <a class="brand" href="#top" aria-label="EduMall home">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 44 44"><path d="M22 3 7 10v12c0 9.5 6.4 16.4 15 19 8.6-2.6 15-9.5 15-19V10L22 3Z"/><path d="m13 16 9-5 9 5-9 5-9-5Zm3 3.5V26l6 3 6-3v-6.5"/></svg>
+          </span>
+          <span>EduMall</span>
+        </a>
+
+        <form class="nav-search" id="nav-search" role="search">
+          <label class="sr-only" for="search">Search courses</label>
+          <input id="search" name="q" type="search" placeholder="Search courses..." autocomplete="off">
+          <button type="submit" aria-label="Submit search">
+            <svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg>
+          </button>
+        </form>
+
+        <button class="mobile-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Open menu">
+          <span></span><span></span><span></span>
+        </button>
+
+        <div class="nav-links" id="nav-links">
+          <a class="active" href="#top">Home</a>
+          <a href="courses.html">Courses</a>
+          <a href="#about">About</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow">Keep learning</p>
+          <h1 id="hero-title">Connect With Our <span>Expert</span></h1>
+          <p class="hero-intro">Acquire global knowledge and build the professional skills that open new opportunities.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="courses.html">Explore courses <span aria-hidden="true">→</span></a>
+            <button class="play-button" type="button" id="watch-story">
+              <span class="play-icon" aria-hidden="true">▶</span>
+              Watch how it works
+            </button>
+          </div>
+          <div class="learner-proof">
+            <div class="avatar-stack" aria-hidden="true"><span>AM</span><span>SK</span><span>JR</span></div>
+            <p><strong>25,000+</strong> learners joined this month</p>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-label="Friendly online course instructor">
+          <div class="hero-blob"></div>
+          <div class="dot-pattern"></div>
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+          <img src="assets/instructor-hero.png" alt="Smiling EduMall instructor in a navy shirt" width="1024" height="1536">
+          <div class="floating-card rating-card">
+            <span class="card-icon">★</span>
+            <p><strong>4.9</strong><small>Course rating</small></p>
+          </div>
+          <div class="floating-card students-card">
+            <span class="card-icon card-icon-blue">
+              <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            </span>
+            <p><strong>120K</strong><small>Active students</small></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section why-section" id="about">
+      <div class="container why-grid">
+        <div class="why-art" aria-hidden="true"><div class="art-card art-main"><span>98%</span><small>Completion rate</small><i></i></div><div class="art-card art-small">✓<small>New skill unlocked</small></div></div>
+        <div class="why-copy">
+          <p class="eyebrow">Learn your way</p>
+          <h2>Everything you need to reach your goals</h2>
+          <p>Practical courses, clear milestones, and expert support keep your learning moving forward.</p>
+          <ul>
+            <li><span>✓</span><div><strong>Expert-led courses</strong><p>Learn proven methods directly from industry specialists.</p></div></li>
+            <li><span>✓</span><div><strong>Flexible learning</strong><p>Study at your own pace, on any device, wherever you are.</p></div></li>
+            <li><span>✓</span><div><strong>Recognized certificates</strong><p>Showcase each completed skill with a shareable credential.</p></div></li>
+          </ul>
+          <a class="button button-dark" href="#register">Start learning free <span>→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="impact-section" aria-labelledby="impact-title">
+      <div class="container impact-heading">
+        <p class="eyebrow">Learning journeys</p>
+        <h2 id="impact-title">Real skills. Confident students.</h2>
+      </div>
+      <div class="impact-viewport">
+        <div class="impact-track">
+          <div class="impact-card-set">
+            <article class="impact-stat-card">
+              <strong>10K+</strong>
+              <h3>Students Educated</h3>
+              <p>Hands-on learning, mentor guidance, and practical projects across every course.</p>
+            </article>
+            <article class="student-story-card story-blue">
+              <div class="student-photo"><img src="assets/student-aarav.png" alt="Aarav, an EduMall technology student" width="1024" height="1536" loading="lazy"></div>
+              <div class="student-story-copy">
+                <small>From:</small><span>Programming beginner</span>
+                <small>Now building:</small><h3>Java Full Stack Projects</h3>
+                <b>12 guided assignments</b>
+              </div>
+            </article>
+            <article class="student-story-card story-peach">
+              <div class="student-photo"><img src="assets/student-neha.png" alt="Neha, an EduMall technology student" width="1024" height="1536" loading="lazy"></div>
+              <div class="student-story-copy">
+                <small>From:</small><span>Non-tech learner</span>
+                <small>Now building:</small><h3>Python &amp; AI Applications</h3>
+                <b>8 portfolio projects</b>
+              </div>
+            </article>
+          </div>
+          <div class="impact-card-set" aria-hidden="true">
+            <article class="impact-stat-card"><strong>10K+</strong><h3>Students Educated</h3><p>Hands-on learning, mentor guidance, and practical projects across every course.</p></article>
+            <article class="student-story-card story-blue"><div class="student-photo"><img src="assets/student-aarav.png" alt="" width="1024" height="1536" loading="lazy"></div><div class="student-story-copy"><small>From:</small><span>Programming beginner</span><small>Now building:</small><h3>Java Full Stack Projects</h3><b>12 guided assignments</b></div></article>
+            <article class="student-story-card story-peach"><div class="student-photo"><img src="assets/student-neha.png" alt="" width="1024" height="1536" loading="lazy"></div><div class="student-story-copy"><small>From:</small><span>Non-tech learner</span><small>Now building:</small><h3>Python &amp; AI Applications</h3><b>8 portfolio projects</b></div></article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="offline-section" aria-labelledby="offline-title">
+      <div class="container offline-card">
+        <div class="offline-heading">
+          <div>
+            <p class="offline-badge">Learn offline</p>
+            <h2 id="offline-title">Taught in-person at our <span>Sama, Vadodara</span> center.</h2>
+          </div>
+          <p>Live trainer-led classrooms · walk in six days a week.</p>
+        </div>
+        <a class="branch-card" href="https://www.google.com/maps/search/?api=1&amp;query=Sama+Vadodara+Gujarat" target="_blank" rel="noopener noreferrer" aria-label="Find the Sama, Vadodara center on Google Maps">
+          <span class="branch-pin" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+          </span>
+          <span><strong>Vadodara</strong><small>Sama</small></span>
+          <span class="branch-arrow" aria-hidden="true">↗</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="inquiry-section" aria-labelledby="inquiry-title">
+      <div class="container inquiry-inner">
+        <h2 id="inquiry-title">Learn skills that hiring partners across India are actively recruiting for — every single day.</h2>
+        <button class="button button-dark" id="open-inquiry" type="button">Inquire Now</button>
+      </div>
+    </section>
+
+    <section class="cta-section" id="register">
+      <div class="container cta-inner">
+        <div><p class="eyebrow">Ready to grow?</p><h2>Start learning today.</h2><p>Join thousands of learners building tomorrow's skills.</p></div>
+        <form class="email-form" id="email-form"><label class="sr-only" for="email">Email address</label><input id="email" type="email" placeholder="Enter your email address" required><button class="button button-primary" type="submit">Get started</button></form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner"><a class="brand footer-brand" href="#top"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 44 44"><path d="M22 3 7 10v12c0 9.5 6.4 16.4 15 19 8.6-2.6 15-9.5 15-19V10L22 3Z"/><path d="m13 16 9-5 9 5-9 5-9-5Zm3 3.5V26l6 3 6-3v-6.5"/></svg></span><span>EduMall</span></a><p>© <span id="year"></span> EduMall. Crafted for curious minds.</p><div><a href="#privacy">Privacy</a><a href="#terms">Terms</a><a href="#help">Help</a></div></div>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <div class="modal" id="story-modal" hidden>
+    <div class="modal-backdrop" data-close-modal></div>
+    <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <button class="modal-close" type="button" data-close-modal aria-label="Close">×</button>
+      <div class="video-placeholder"><span>▶</span></div>
+      <h2 id="modal-title">Learning that fits your life</h2>
+      <p>Short, focused lessons and hands-on projects help you turn knowledge into real-world confidence.</p>
+    </div>
+  </div>
+
+  <div class="modal inquiry-modal" id="inquiry-modal" hidden>
+    <div class="modal-backdrop" data-close-modal></div>
+    <div class="modal-card inquiry-modal-card" role="dialog" aria-modal="true" aria-labelledby="inquiry-modal-title">
+      <button class="modal-close" type="button" data-close-modal aria-label="Close inquiry form">×</button>
+      <h2 id="inquiry-modal-title">Book your visit</h2>
+      <p>Tour our Sama, Vadodara center, meet a career advisor, and book a free demo.</p>
+      <form class="inquiry-form" id="inquiry-form">
+        <label for="inquiry-name">Your name</label>
+        <input id="inquiry-name" name="name" type="text" placeholder="e.g. Rohan Patel" autocomplete="name" required>
+
+        <label for="inquiry-email">Email</label>
+        <input id="inquiry-email" name="email" type="email" placeholder="you@example.com" autocomplete="email" required>
+
+        <label for="inquiry-phone">Phone</label>
+        <input id="inquiry-phone" name="phone" type="tel" placeholder="+91 98765 43210" autocomplete="tel" inputmode="tel" pattern="[+0-9() -]{8,18}" required>
+        <small>We’ll WhatsApp, not spam-call. Outside India? Include your country code.</small>
+
+        <label for="inquiry-message">What are you looking for? <span>(optional)</span></label>
+        <textarea id="inquiry-message" name="message" rows="3" placeholder="Course, preferred batch timing..."></textarea>
+
+        <button class="button button-primary inquiry-submit" type="submit"><span aria-hidden="true">✈</span> Request a callback</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

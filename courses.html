@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explore full stack, automation testing, and AI development courses at EduMall.">
+  <title>Courses — EduMall</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#catalog">Skip to courses</a>
+
+  <header class="site-header">
+    <div class="topbar">
+      <div class="container topbar-inner">
+        <div class="contact-list">
+          <a href="tel:+8819906886" aria-label="Call EduMall">
+            <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.69 2.8a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.33 1.84.56 2.8.69A2 2 0 0 1 22 16.92z"/></svg>
+            (+88) 1990 6886
+          </a>
+          <span class="contact-divider"></span>
+          <a href="mailto:hello@edumall.com">
+            <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><path d="m22 6-10 7L2 6"/></svg>
+            hello@edumall.com
+          </a>
+        </div>
+        <div class="topbar-actions">
+          <a href="index.html#register">Log in</a>
+          <span class="contact-divider"></span>
+          <a href="index.html#register">Register</a>
+          <div class="socials" aria-label="Social links">
+            <a href="#" aria-label="Twitter">X</a><a href="#" aria-label="Facebook">f</a><a href="#" aria-label="Instagram">◎</a><a href="#" aria-label="LinkedIn">in</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <nav class="navbar" aria-label="Main navigation">
+      <div class="container nav-inner">
+        <a class="brand" href="index.html" aria-label="EduMall home">
+          <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 44 44"><path d="M22 3 7 10v12c0 9.5 6.4 16.4 15 19 8.6-2.6 15-9.5 15-19V10L22 3Z"/><path d="m13 16 9-5 9 5-9 5-9-5Zm3 3.5V26l6 3 6-3v-6.5"/></svg></span>
+          <span>EduMall</span>
+        </a>
+
+        <form class="nav-search" id="course-search" role="search">
+          <label class="sr-only" for="search">Search courses</label>
+          <input id="search" name="q" type="search" placeholder="Search courses..." autocomplete="off">
+          <button type="submit" aria-label="Submit search"><svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg></button>
+        </form>
+
+        <button class="mobile-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Open menu"><span></span><span></span><span></span></button>
+        <div class="nav-links" id="nav-links">
+          <a href="index.html">Home</a>
+          <a class="active" href="courses.html" aria-current="page">Courses</a>
+          <a href="index.html#about">About</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="catalog-hero">
+      <div class="container catalog-hero-inner">
+        <div>
+          <p class="eyebrow">Build job-ready skills</p>
+          <h1>Explore our courses</h1>
+          <p>Choose a learning path and start building practical, industry-focused skills today.</p>
+        </div>
+        <div class="catalog-count"><strong>4</strong><span>career-focused<br>courses</span></div>
+      </div>
+    </section>
+
+    <section class="catalog-section" id="catalog" aria-labelledby="catalog-title">
+      <div class="container">
+        <div class="catalog-toolbar">
+          <div>
+            <h2 id="catalog-title">All courses</h2>
+            <p id="result-count">Showing 4 courses</p>
+          </div>
+          <div class="catalog-filters" role="group" aria-label="Filter courses">
+            <button class="active" type="button" data-category="all">All</button>
+            <button type="button" data-category="full-stack">Full Stack</button>
+            <button type="button" data-category="testing">Testing</button>
+            <button type="button" data-category="ai">AI</button>
+          </div>
+        </div>
+
+        <div class="catalog-grid">
+          <article class="catalog-card" data-category="full-stack" data-search="java full stack developer spring boot rest api databases frontend ai applications">
+            <div class="catalog-card-accent java-accent"><span>J</span></div>
+            <div class="catalog-card-content">
+              <p class="catalog-label">Java full stack</p>
+              <h3>Java Full Stack Developer</h3>
+              <p>Master Java, Spring Boot, REST APIs, databases, frontend development and AI applications.</p>
+              <ul><li>24 weeks</li><li>Beginner friendly</li></ul>
+              <a class="button button-primary view-course" href="course-details.html?course=java">View Details <span>→</span></a>
+            </div>
+          </article>
+
+          <article class="catalog-card" data-category="full-stack" data-search="python full stack developer django rest api databases ai powered application development">
+            <div class="catalog-card-accent python-accent"><span>Py</span></div>
+            <div class="catalog-card-content">
+              <p class="catalog-label">Python full stack</p>
+              <h3>Python Full Stack Developer</h3>
+              <p>Learn Python, Django, REST APIs, databases and AI-powered application development.</p>
+              <ul><li>22 weeks</li><li>Project based</li></ul>
+              <a class="button button-primary view-course" href="course-details.html?course=python">View Details <span>→</span></a>
+            </div>
+          </article>
+
+          <article class="catalog-card" data-category="testing" data-search="automation testing modern web api automation selenium playwright frameworks">
+            <div class="catalog-card-accent testing-accent"><span>✓</span></div>
+            <div class="catalog-card-content">
+              <p class="catalog-label">Automation</p>
+              <h3>Automation Testing</h3>
+              <p>Learn modern web and API automation with practical frameworks and real testing workflows.</p>
+              <ul><li>16 weeks</li><li>Hands-on labs</li></ul>
+              <a class="button button-primary view-course" href="course-details.html?course=testing">View Details <span>→</span></a>
+            </div>
+          </article>
+
+          <article class="catalog-card" data-category="ai" data-search="ai application development practical applications chatbots java python artificial intelligence">
+            <div class="catalog-card-accent ai-accent"><span>AI</span></div>
+            <div class="catalog-card-content">
+              <p class="catalog-label">AI development</p>
+              <h3>AI Application Development</h3>
+              <p>Build practical AI applications and chatbots using Java or Python with modern tools.</p>
+              <ul><li>18 weeks</li><li>Portfolio projects</li></ul>
+              <a class="button button-primary view-course" href="course-details.html?course=ai">View Details <span>→</span></a>
+            </div>
+          </article>
+        </div>
+        <div class="catalog-empty" id="catalog-empty" hidden><span>⌕</span><h3>No courses found</h3><p>Try another search or show all courses.</p><button type="button" class="button button-primary" id="reset-courses">Show all courses</button></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <a class="brand footer-brand" href="index.html"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 44 44"><path d="M22 3 7 10v12c0 9.5 6.4 16.4 15 19 8.6-2.6 15-9.5 15-19V10L22 3Z"/><path d="m13 16 9-5 9 5-9 5-9-5Zm3 3.5V26l6 3 6-3v-6.5"/></svg></span><span>EduMall</span></a>
+      <p>© <span id="year"></span> EduMall. Crafted for curious minds.</p>
+      <div><a href="index.html#about">About</a><a href="index.html#register">Contact</a><a href="index.html">Home</a></div>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="courses.js"></script>
+</body>
+</html>
